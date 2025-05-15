@@ -13,7 +13,7 @@ class Settings(BaseSettings):
 
     APP_NAME: str = "arxiv-mcp-server"
     APP_VERSION: str = "0.2.10"
-    MAX_RESULTS: int = 50
+    MAX_RESULTS: int = 200
     BATCH_SIZE: int = 20
     REQUEST_TIMEOUT: int = 60
     HOST: str = "0.0.0.0"
