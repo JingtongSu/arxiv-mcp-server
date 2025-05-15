@@ -38,3 +38,7 @@ ENV/
 
 # Local development settings
 .env
+
+# uv spec
+.venv/
+uv.lock
